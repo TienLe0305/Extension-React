@@ -1,0 +1,85 @@
+.login-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input input {
+  margin-bottom: 20px;
+  min-width: 270px;
+  min-height: 45px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.forgot {
+  color: #56ba57;
+  cursor: pointer;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.form-login .login,
+.form-login .gg-login {
+  min-width: 290px;
+  min-height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form-login .login {
+  background-color: #56ba57;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.form-login span {
+  font-size: 12px;
+}
+
+.gg-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
